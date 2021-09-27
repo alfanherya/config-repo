@@ -1,0 +1,13 @@
+logging:
+    group:
+    tomcat:
+        - org.apache.catalina
+        - org.apache.coyote
+        - org.apache.tomcat
+    level:
+        root: WARN
+        com:
+            herya: DEBUG
+        tomcat: INFO
+
+database: app_develop
